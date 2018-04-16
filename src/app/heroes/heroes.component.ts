@@ -32,7 +32,7 @@ export class HeroesComponent implements OnInit {
   }
 */
 
-//O subscribe possibilita um funcionamento assíncrono.
+  //O subscribe possibilita um funcionamento assíncrono.
   getHeroes(): void {
     this.heroService.getHeroes()
       .subscribe(heroes => this.heroes = heroes);
